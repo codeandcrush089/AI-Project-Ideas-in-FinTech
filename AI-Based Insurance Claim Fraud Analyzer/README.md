@@ -208,14 +208,14 @@ insurance-fraud-analyzer/
 
 # 10) MVP Implementation Plan (8–10 weeks)
 
-Week 1: Ingest historic claims and build reproducible preprocessing + feature store (structured features).
-Week 2: EDA and simple supervised models (XGBoost) on labeled claims; baseline metrics.
-Week 3: Build a basic scoring API (FastAPI) and a lightweight investigator UI (Streamlit) showing claim fields and score.
-Week 4: Add NLP pipeline: OCR invoices & extract key fields; include text embeddings in model.
-Week 5: Train ensemble (structured + text) and add explainability (SHAP).
-Week 6: Add simple duplicate detection & graph construction (Neo4j) to surface linked entities.
-Week 7: Integrate human feedback loop — let investigators tag outcomes and record labels.
-Week 8: Pilot on live/near-real-time claims with hold rules for high-risk claims; monitor performance and collect data for retraining.
+**Week 1**: Ingest historic claims and build reproducible preprocessing + feature store (structured features).</br>
+**Week 2**: EDA and simple supervised models (XGBoost) on labeled claims; baseline metrics.</br>
+**Week 3**: Build a basic scoring API (FastAPI) and a lightweight investigator UI (Streamlit) showing claim fields and score.</br>
+**Week 4**: Add NLP pipeline: OCR invoices & extract key fields; include text embeddings in model.</br>
+**Week 5**: Train ensemble (structured + text) and add explainability (SHAP).</br>
+**Week 6**: Add simple duplicate detection & graph construction (Neo4j) to surface linked entities.</br>
+**Week 7**: Integrate human feedback loop — let investigators tag outcomes and record labels.</br>
+**Week 8**: Pilot on live/near-real-time claims with hold rules for high-risk claims; monitor performance and collect data for retraining.</br>
 
 ---
 
