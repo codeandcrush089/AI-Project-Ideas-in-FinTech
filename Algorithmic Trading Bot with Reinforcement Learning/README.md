@@ -179,7 +179,7 @@ algo-rl-trader/
 ├─ src/
 │  ├─ data_ingest/
 │  ├─ features/
-│  ├─ envs/            
+│  ├─ envs/            # OpenAI-Gym style envs
 │  ├─ agents/          # sb3/rllib wrappers
 │  ├─ backtest/
 │  ├─ execution/
@@ -229,3 +229,18 @@ algo-rl-trader/
 5. Week 6–7: Paper trading via Alpaca; add basic dashboard (Streamlit) for monitoring.
 6. Week 8: Improve model (ensemble or SAC), implement retraining pipeline.
 
+---
+
+
+
+[1]: https://medium.com/coinmonks/the-7-best-financial-apis-for-investors-and-developers-in-2025-in-depth-analysis-and-comparison-adbc22024f68?utm_source=chatgpt.com "The 7 Best Financial APIs for Investors and Developers in 2025 (In ..."
+[2]: https://patrickalphac.medium.com/stock-api-landscape-5c6e054ee631?utm_source=chatgpt.com "Best Stock APIs and Industry Landscape in 2022 | by Patrick Collins"
+[3]: https://github.com/AI4Finance-Foundation/FinRL?utm_source=chatgpt.com "FinRL®: Financial Reinforcement Learning. - GitHub"
+[4]: https://medium.com/mlearning-ai/finrl-for-quantitative-finance-plug-and-play-drl-algorithms-11cf494d28b1?utm_source=chatgpt.com "FinRL for Quantitative Finance: plug-and-play DRL algorithms"
+[5]: https://pyrddlgym.readthedocs.io/en/latest/sb.html?utm_source=chatgpt.com "Reinforcement Learning with stable-baselines3 and rllib."
+[6]: https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset?utm_source=chatgpt.com "Stock Market Dataset - Kaggle"
+[7]: https://www.quantconnect.com/datasets/?utm_source=chatgpt.com "Algorithmic Trading Platform - QuantConnect.com"
+[8]: https://nordicapis.com/10-real-time-stock-data-apis/?utm_source=chatgpt.com "10+ Real-Time Stock Data APIs"
+[9]: https://dev.to/williamsmithh/top-5-free-financial-data-apis-for-building-a-powerful-stock-portfolio-tracker-4dhj?utm_source=chatgpt.com "Top 5 Free Financial Data APIs for Building a Powerful Stock ..."
+[10]: https://openfin.engineering.columbia.edu/sites/default/files/content/publications/3490354.3494366.pdf?utm_source=chatgpt.com "[PDF] FinRL: Deep Reinforcement Learning Framework to Automate ..."
+[11]: https://www.tomshardware.com/tech-industry/researchers-find-automated-financial-traders-will-collude-with-each-other-through-a-combination-of-artificial-intelligence-and-artificial-stupidity?utm_source=chatgpt.com "Researchers find automated financial traders will collude with each other through a combination of 'artificial intelligence' and 'artificial stupidity'"
